@@ -47,3 +47,10 @@ body{
   background-color: rgb(209, 238, 255);
   color: black;
 }
+
+@media screen and (max-width: 800px) {
+  .logo,.affiliate,.affiliate:active,.affiliate:hover,.button-div {
+    width: 80%;
+    height: 80% /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
