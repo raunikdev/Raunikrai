@@ -77,3 +77,24 @@
   font-size: 30px;
   font-family: arial;
 }
+.aata{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 600px;
+  margin-bottom: 10px;
+}
+.photo-div{
+  background-color: rgb(238, 238, 255);
+}
+.text-div{
+  background-color: rgb(241, 225, 255);
+}
+.photo{
+  width: 200px;
+  mix-blend-mode: multiply;
+}
+.name{
+  font-family: roboto;
+  font-size: 30px;
+  padding-left: 5px;
+}
