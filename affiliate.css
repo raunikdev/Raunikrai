@@ -1,0 +1,79 @@
+.amazon-logo{
+  height: 100%;
+  display: inline-block;
+}
+.bar{
+  height:100px;
+  width: 1000px;
+  display: inline-block;
+}
+.location-div{
+  display: inline-block;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px;
+  width:120px;
+}
+.location-image{
+  height: 30px;
+  vertical-align: middle;
+}
+.barr{
+  display: grid;
+  grid-template-columns: 310.75px 120px 330px 160px;
+}
+.deliver{
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: roboto,arial;
+  color: grey;
+}
+.you{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: roboto,arial;
+  display: inline-block;
+  margin-left: 40%;
+  margin-right: 50%;
+  font-weight: bold;
+}
+.input{
+  display: inline-block;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.search-nahi{
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  width: 290px;
+  height: 15px;
+  border-radius: 20px;
+  border-style: solid;
+}
+.sign-in{
+  margin-left: 60px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: blue;
+  background-color: white;
+  border-color: blue;
+  cursor: pointer;
+  margin-top: 19px;
+  border-style: solid;
+}
+.sign-in:hover{
+  background-color: rgb(215, 255, 255);
+}
+.Para{
+  font-size: 30px;
+  font-family: arial;
+}
