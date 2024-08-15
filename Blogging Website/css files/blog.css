@@ -1,0 +1,109 @@
+.title{
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: open sans;
+  font-weight:600;
+}
+.title-div{
+  display: grid;
+  grid-template-columns: 300px 1fr ;
+  background-color: rgb(0,0,0,0.1);
+  padding-left: 10%;
+  padding-right: 10%;
+  min-width: 667px;
+  height: 70px;
+}
+.header-right{
+  display: flex;
+  justify-content: right;
+  vertical-align: middle;
+}
+.contact-us{
+  color: white;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 20px;
+  height: 32px;
+  border: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.contact-us-div{
+  display: grid;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.about-div{
+  vertical-align: middle;
+  margin-right: 30px;
+}
+.about{
+  vertical-align: middle;
+  color: white;
+  margin: 0;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin: 0;
+  background-color: blueviolet;
+  font-family: open sans;
+  padding-bottom: 50px;
+}
+.moto{
+  margin: 0;
+  margin-left: 10%;
+  margin-top: 25px;
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 100px;
+  width: 700px;
+  color: rgb(255, 255, 255);
+}
+.sub-moto{
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 10%;
+  font-size: 30px;
+  font-family: arial;
+  color: rgb(255, 255, 255);
+}
+.body2{
+  height: 190px;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: aliceblue;
+  margin-top: 10px;
+}
+.structure-of-blog{
+  width: 250px;
+  height: 100px;
+}
+.img{
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
+}
+.web{
+  text-decoration: none;
+}
+.start-reading{
+  margin-left: 10%;
+  margin-top: 40px;
+  font-family: arial;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}

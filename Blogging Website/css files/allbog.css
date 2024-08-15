@@ -1,0 +1,55 @@
+.title{
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: open sans;
+  font-weight:600;
+}
+.title-div{
+  display: grid;
+  grid-template-columns: 300px 1fr ;
+  background-color: rgb(0,0,0,0.1);
+  padding-left: 10%;
+  padding-right: 10%;
+  min-width: 667px;
+  height: 70px;
+}
+.header-right{
+  display: flex;
+  justify-content: right;
+  vertical-align: middle;
+}
+.contact-us{
+  color: white;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 20px;
+  height: 32px;
+  border: none;
+  vertical-align: middle;
+}
+.contact-us-div{
+  display: grid;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.about-div{
+  vertical-align: middle;
+  margin-right: 30px;
+}
+.about{
+  vertical-align: middle;
+  color: white;
+  margin: 0;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  margin: 0;
+  background-color: blueviolet;
+  font-family: open sans;
+}
