@@ -50,7 +50,10 @@ body{
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  
+  transition: box-shadow 0.15s;
+}
+.all:hover{
+  box-shadow: 4px 4px 16px rgb(0,0,0,0.5);
 }
 .img-div{
   flex:3;
@@ -75,6 +78,7 @@ body{
 .price{
   margin-top: 0 ;
   margin-bottom: 0;
+  transition: color 0.15s;
 }
 .img{
   height: 100%;
