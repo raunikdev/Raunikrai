@@ -73,7 +73,7 @@ body{
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 390px){
+@media (max-width: 450px){
   .layer-1{
     grid-template-columns: 1fr 1fr;
     padding-left: 0;
