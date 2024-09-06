@@ -22,7 +22,7 @@ body{
 .search-bar{
   height: 30px;
   padding-left: 10px;
-  min-width: 200px;
+  min-width: 10px;
   max-width: 500px;
   border-radius: 20px;
   border-style: solid;
@@ -43,14 +43,43 @@ body{
   padding-right: 16px;
   height: 30px;
   background-color: black;
-  float: right;
-
+  flex: 1;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .layer-1{
   padding-left: 10%;
-  display: block;
+  display: grid;
   padding-right: 10%;
+  justify-content: center;
+  align-items: center;
 }
+@media (min-width: 1251px){
+  .layer-1{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1250px){
+  .layer-1{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1100px){
+  .layer-1{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 800px){
+  .layer-1{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 562px){
+  .layer-1{
+    grid-template-columns: 1fr;
+  }
+}
+
 .all{
   margin-top: 30px;
   height: 400px;
