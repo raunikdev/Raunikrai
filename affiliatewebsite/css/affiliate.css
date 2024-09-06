@@ -51,8 +51,7 @@ body{
   padding-left: 10%;
   display: grid;
   padding-right: 10%;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
 }
 @media (min-width: 1251px){
   .layer-1{
@@ -74,16 +73,11 @@ body{
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (min-width: 100px) and (max-width: 799px){
-  .layer-1{
-    grid-template-columns: 1fr 1fr;
-  }
-}
-/* @media (max-width: 562px){
+@media (max-width: 560px){
   .layer-1{
     grid-template-columns: 1fr;
   }
-} */
+}
 
 .all{
   margin-top: 30px;
