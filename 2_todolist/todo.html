@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="todo.css">
+  <title>To do List</title>
+</head>
+<body>
+  <div class="container">
+    <header id="header" class="header"><p>To-Do List </p><img src="img/todo_list_img.png" class="todo_img"></header>
+    <section id="input-button" class="input-button">
+      <input type="text" placeholder='Type "Write Homework"' id="input-text" class="input-text">
+      <button class="add" id="add" onclick="addTask()">Add</button>
+    </section>
+    <ul id = list_container>
+      <!-- <li class="checked">Task 1</li>
+      <li>Task 2</li>
+      <li>Task 3</li> -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
