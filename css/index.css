@@ -126,4 +126,7 @@ body{
   .contact-us-div{
     display: none;
   }
+  .title-div{
+    width: 100%;
+  }
 }
