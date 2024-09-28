@@ -142,3 +142,8 @@ body{
     margin-top: 70px;
   }
 }
+button {
+    -webkit-appearance: none;   /* Disable default button styling */
+    appearance: none;           /* Disable default button styling */
+}
+
