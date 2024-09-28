@@ -4,7 +4,7 @@
   margin-bottom: 0;
   font-family: open sans;
   font-weight:600;
-}
+} 
 .title-div{
   display: grid;
   grid-template-columns: 300px 1fr ;
@@ -30,6 +30,10 @@
   height: 32px;
   border: none;
   vertical-align: middle;
+  transition: opacity 0.15s;
+}
+.contact-us:hover{
+  opacity: 0.8;
 }
 .contact-us-div{
   display: grid;
@@ -58,11 +62,15 @@ body{
   font-size: 40px;
   margin-top: 10px;
   margin-bottom: 0;
+  display: block;
 }
 .buttons{
   padding-left: 10%;
   padding-right: 10%;
-  margin-top: 20px;
+  display: block;
+}
+.para-1-div{
+  display: block;
 }
 .button-normal{
   background-color: black;
@@ -78,6 +86,7 @@ body{
   cursor: pointer;
   margin-left: 14px;
   margin-right: 14px;
+  margin-top: 20px;
   transition: padding-left 0.2s,
     padding-right 0.2s,
     margin-left 0.2s,
@@ -89,4 +98,32 @@ body{
   margin-left: 10px;
   margin-right: 10px;
   
+}
+.rr{
+  display: none;
+}
+@media (max-width: 450px){
+  .buttons{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .button-normal{
+    width: 80%;
+  }
+  .para-1{
+    width: 80%;
+  }
+  .rrwebsite{
+    display: none;
+  }
+  .rr{
+    display: block;
+  }
+  .header-right,
+  .about,
+  .about-div,
+  .contact-us,
+  .contact-us-div{
+    display: none;
+  }
 }
