@@ -99,6 +99,10 @@ body{
   margin-right: 10px;
   
 }
+.button-normal:focus{
+    outline: none;     
+    border: none;
+}
 .rr{
   display: none;
 }
