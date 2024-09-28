@@ -146,4 +146,7 @@ button {
     -webkit-appearance: none;   /* Disable default button styling */
     appearance: none;           /* Disable default button styling */
 }
-
+html{
+  
+    -webkit-text-size-adjust: 100%; /* Prevents auto text zooming */
+}
