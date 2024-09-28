@@ -109,6 +109,8 @@ body{
   }
   .button-normal{
     width: 80%;
+    border-width: none;
+    border-style: solid;
   }
   .para-1{
     width: 80%;
