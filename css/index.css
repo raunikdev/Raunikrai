@@ -11,7 +11,7 @@
   background-color: rgb(0,0,0,0.1);
   padding-left: 10%;
   padding-right: 10%;
-/*   min-width: 667px; */
+  /* min-width: 667px; */
   height: 70px;
 }
 .header-right{
@@ -82,7 +82,7 @@ body{
   font-family: open sans;
   font-size: 14px;
   border-radius: 4px;
-  border-style: solid;
+  border-style: none;
   cursor: pointer;
   margin-left: 14px;
   margin-right: 14px;
@@ -99,9 +99,9 @@ body{
   margin-right: 10px;
   
 }
-.button-normal:focus{
-    outline: none;     
-    border: none;
+.button-normal:active{
+  background-color: antiquewhite;
+  color: black;
 }
 .rr{
   display: none;
@@ -141,12 +141,4 @@ body{
   body{
     margin-top: 70px;
   }
-}
-button {
-    -webkit-appearance: none;   /* Disable default button styling */
-    appearance: none;           /* Disable default button styling */
-}
-html{
-  
-    -webkit-text-size-adjust: 100%; /* Prevents auto text zooming */
 }
