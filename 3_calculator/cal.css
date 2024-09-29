@@ -1,0 +1,116 @@
+.container{
+  width: 380px;
+  height: 660px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+body{
+  /* margin-bottom: 50px; */
+  background: linear-gradient(135deg, rgb(217, 0, 255),rgb(0, 166, 255));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+::placeholder{
+  color: white;
+  font-size: 50px;
+  align-items: baseline;
+  text-align: end;
+}
+.input{
+  color: white;
+  font-size: 50px;
+  height: 140px;
+  width: 360px;
+  padding-top: 90px;
+  padding-bottom: 0px;
+  padding-right: 20px;
+  padding-left: 0px;
+  border: none;
+  text-align: end;
+  background-color: black;
+  border-radius: 30px;
+}
+.all-button{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  margin: auto;
+}
+.row1,
+.row2,
+.row3,
+.row4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+
+}
+.row5{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.grey-button,
+.black-button{
+  margin-right: 10px;
+}
+.grey-button,
+.orange-button,
+.black-button{
+  font-size: 34px;  
+  height: 65px;
+  width: 65px;
+  border-radius: 100px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.black-button0{
+  font-size: 25px;
+  width: 150px;
+  height: 65px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 150px;
+  border-width: 0;
+  text-align: left;
+  padding-left: 26px;
+  background-color: rgb(74, 74, 74);
+  color: white;
+  font-size: 34px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+.grey-button{
+  background-color: rgb(201, 201, 201);
+  transition: background-color 0.15s;
+}
+.black-button{
+  background-color: rgb(74, 74, 74);
+  color: white;
+  transition: background-color 0.2s ease;
+}
+.orange-button{
+  background-color: orange;
+  color :white;
+  transition: background-color 0.2s ease;
+}
+button:hover{
+  opacity: 0.9;
+}
+.black-button:active,
+.black-button0:active{
+  background-color: rgb(118, 118, 118);
+}
+
+.grey-button:active{
+  background-color: rgb(223, 223, 223);
+}
+.orange-button:active{
+  background-color: rgb(255, 255, 255);
+  color :rgb(255, 119, 0);
+}
