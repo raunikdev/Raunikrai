@@ -1,4 +1,3 @@
-
 //board
 let board;
 let boardWidth = 360;
@@ -43,10 +42,6 @@ window.onload = function() {
     board.width = boardWidth;
     context = board.getContext("2d"); //used for drawing on the board
 
-    //draw flappy bird
-    // context.fillStyle = "green";
-    // context.fillRect(bird.x, bird.y, bird.width, bird.height);
-
     //load images
     birdImg = new Image();
     birdImg.src = "./flappybird.png";
@@ -60,9 +55,15 @@ window.onload = function() {
     bottomPipeImg = new Image();
     bottomPipeImg.src = "./bottompipe.png";
 
+    // Start the game loop
     requestAnimationFrame(update);
-    setInterval(placePipes, 1500); //every 1.5 seconds
+    setInterval(placePipes, 1500); // every 1.5 seconds
+
+    // Listen for key press to move the bird
     document.addEventListener("keydown", moveBird);
+    
+    // Add a click event listener for jumping
+    document.addEventListener("click", moveBird);
 }
 
 function update() {
@@ -74,7 +75,6 @@ function update() {
 
     //bird
     velocityY += gravity;
-    // bird.y += velocityY;
     bird.y = Math.max(bird.y + velocityY, 0); //apply gravity to current bird.y, limit the bird.y to top of the canvas
     context.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
 
@@ -146,11 +146,11 @@ function placePipes() {
 }
 
 function moveBird(e) {
-    if (e.code == "Space" || e.code == "ArrowUp" || e.code == "KeyX") {
-        //jump
+    if (e.type === "click" || e.code === "Space" || e.code === "ArrowUp" || e.code === "KeyX") {
+        // Bird jumps when Space, ArrowUp, KeyX, or mouse click is detected
         velocityY = -6;
 
-        //reset game
+        // Reset the game if it's over
         if (gameOver) {
             bird.y = birdY;
             pipeArray = [];
