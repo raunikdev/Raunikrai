@@ -323,7 +323,7 @@ body {
         width: 100%;
         height: fit-content;
         margin-top: 0;
-        border-radius: 0;
+        border-radius: 30px;
         padding: 4rem 5% 0rem 5%;
     }
     .b-l-sec {
